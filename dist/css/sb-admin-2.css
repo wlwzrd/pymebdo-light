@@ -477,3 +477,9 @@ table.dataTable thead .sorting:after {
     border-left-width: 0;
   }
 }
+textarea.without-lines{
+  width: 100%; 
+  resize: none; 
+  border:none; 
+  border-bottom-style: inset;
+}
