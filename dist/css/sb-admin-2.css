@@ -87,9 +87,20 @@ body {
   background: #002449;
 }
 
+.card-img {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  max-height: 260px;
+}
 
+.card-img img {
+  min-width: 100%;
+}
 
-
+.table th, td {
+   text-align: center;   
+}
 
 
 .navbar-top-links {
