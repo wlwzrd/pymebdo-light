@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Comunidad Pyme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="../vendor/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-pyme navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../pages/index.html" style="color:#fff">COMUNIDAD PYME</a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">                    
+                <li><a href="../pages/contenidoeindicadores.html"><i class="fa fa-flag"></i> Contenido e Indicadores</a></li>
+                <li class="active"><a href="../pages/capacitaciones.html"><i class="fa fa-book"></i> Capacitaciones</a></li>
+                <li><a href="#"><i class="fa fa-group"></i> Aliados</a></li>
+                <!-- Contacto-->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-phone fa-fw"></i> Contacto <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user dropdown-pyme">
+                        <li><a href="#"></i> Linea de atención</a></li>
+                        <li><a href="#"></i> Video Llamada</a></li>
+                        <li><a href="#"></i> Chat</a></li>
+                        <li><a href="#"></i> Correo Electrónico</a></li>
+                        <li><a href="#"></i> Tutoriales</a></li>
+                        <li><a href="#"></i> Formulario</a></li>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- End Contacto-->
+                <!-- Mi Perfil-->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i> Perfil <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> Perfil Empresa</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Ajustes y Privacidad</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Cerrar Sesión</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- End Mi Perfil-->
+
+                <!--  Notificaciones -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-bell fa-fw"></i> Notificaciones <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-alerts">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-bank fa-fw"></i> Actualizar datos
+                                    <span class="pull-right text-muted small">Hace 4 minutos</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-comment fa-fw"></i> 1 Nuevo Comentario
+                                    <span class="pull-right text-muted small">Hace 12 minutos</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-envelope fa-fw"></i> Mensaje Enviado
+                                    <span class="pull-right text-muted small">Hace 4 minutos</span>
+                                </div>
+                            </a>
+                        </li>                                                
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>Ver Todas las Notificaciones</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-alerts -->
+                </li>
+                <!-- /.dropdown -->
+                <!-- End Notificaciones-->                
+                <li class="solicitud"><a href="#">Solicita Productos</a></li>
+                <li class="transacciones"><a href="#"><i class="fa fa-lock"></i> Transacciones</a></li>                                  
+            </ul>
+            <!-- /.navbar-top-links -->
+            
+        </nav>
+
+        <div id="page-wrapper">
+            <!-- Sección de Titulos Indicadores y Noticias-->
+            <div class="row">
+
+                <div class="col-lg-9">
+                    <!-- Titulo Noticias -->
+                    <div class="row">
+                        <h3 class="page-header header-title">Capacitaciones 
+                        <strong class="strong-title"> para tu empresa</strong>
+                    </h3>
+                    </div>
+                    <!-- Noticias -->
+                    <div class="row">
+                        <div class="tab-content">
+                            <!-- Contenido Financiero -->
+                            <div id="financiero" class="tab-pane fade in active">
+                                <!-- Occired -->
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <div class="row">                                
+                                                <div class="col-xs-12 text-center">
+                                                    <div><h3>Occired</h3></div>                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="card-img">
+                                                <img src="../img/card-pyme-4.jpg" alt="" class="img-responsive">
+                                            </div>                                    
+                                        </div>
+                                        <a href="#">
+                                            <div class="panel-footer">
+                                                <span class="pull-left">Leer más</span>
+                                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Transacciones -->
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <div class="row">                                
+                                                <div class="col-xs-12 text-center">
+                                                    <div><h3>Transacciones</h3></div>                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="card-img">
+                                                <img src="../img/card-pyme-2.jpg" alt="" class="img-responsive">
+                                            </div> 
+                                        </div>
+                                        <a href="#">
+                                            <div class="panel-footer">
+                                                <span class="pull-left">Leer más</span>
+                                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Tendencias de Innovación-->
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <div class="row">                                
+                                                <div class="col-xs-12 text-center">
+                                                    <div><h3>CDT</h3></div>                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="card-img">
+                                                <img src="../img/card-pyme-3.jpg" alt="" class="img-responsive">
+                                            </div> 
+                                        </div>
+                                        <a href="#">
+                                            <div class="panel-footer">
+                                                <span class="pull-left">Leer más</span>
+                                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div><!-- End Contenido Financiero -->
+                            <!-- Contenido Mercadeo -->
+                            <div id="mercadeo" class="tab-pane fade">
+                                <!-- Marketing Digital -->
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <div class="row">                                
+                                                <div class="col-xs-12 text-center">
+                                                    <div><h3>Marketing Digital</h3></div>                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="card-img">
+                                                <img src="../img/card-pyme-4.jpg" alt="" class="img-responsive">
+                                            </div>                                    
+                                        </div>
+                                        <a href="#">
+                                            <div class="panel-footer">
+                                                <span class="pull-left">Leer más</span>
+                                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- B2B MArketing -->
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <div class="row">                                
+                                                <div class="col-xs-12 text-center">
+                                                    <div><h3>B2B MArketing</h3></div>                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="card-img">
+                                                <img src="../img/card-pyme-2.jpg" alt="" class="img-responsive">
+                                            </div> 
+                                        </div>
+                                        <a href="#">
+                                            <div class="panel-footer">
+                                                <span class="pull-left">Leer más</span>
+                                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Inbound Marketing-->
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <div class="row">                                
+                                                <div class="col-xs-12 text-center">
+                                                    <div><h3>Inbound Marketing</h3></div>                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="card-img">
+                                                <img src="../img/card-pyme-3.jpg" alt="" class="img-responsive">
+                                            </div> 
+                                        </div>
+                                        <a href="#">
+                                            <div class="panel-footer">
+                                                <span class="pull-left">Leer más</span>
+                                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Growth Hacking -->
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <div class="row">                                
+                                                <div class="col-xs-12 text-center">
+                                                    <div><h3>Growth Hacking</h3></div>                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="card-img">
+                                                <img src="../img/card-pyme-1.jpg" alt="" class="img-responsive">
+                                            </div> 
+                                        </div>
+                                        <a href="#">
+                                            <div class="panel-footer">
+                                                <span class="pull-left">Leer más</span>
+                                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- End Contenido Mercadeo -->
+                            <!-- Contenido Innovación -->
+                            <div id="innovacion" class="tab-pane fade">
+                                <!-- Design Thinking -->
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <div class="row">                                
+                                                <div class="col-xs-12 text-center">
+                                                    <div><h3>Design Thinking</h3></div>                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="card-img">
+                                                <img src="../img/card-pyme-4.jpg" alt="" class="img-responsive">
+                                            </div>                                    
+                                        </div>
+                                        <a href="#">
+                                            <div class="panel-footer">
+                                                <span class="pull-left">Leer más</span>
+                                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Lean Startup -->
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <div class="row">                                
+                                                <div class="col-xs-12 text-center">
+                                                    <div><h3>Lean Startup</h3></div>                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="card-img">
+                                                <img src="../img/card-pyme-2.jpg" alt="" class="img-responsive">
+                                            </div> 
+                                        </div>
+                                        <a href="#">
+                                            <div class="panel-footer">
+                                                <span class="pull-left">Leer más</span>
+                                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Cultura Innovadora-->
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <div class="row">                                
+                                                <div class="col-xs-12 text-center">
+                                                    <div><h3>Cultura Innovadora</h3></div>                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="card-img">
+                                                <img src="../img/card-pyme-3.jpg" alt="" class="img-responsive">
+                                            </div> 
+                                        </div>
+                                        <a href="#">
+                                            <div class="panel-footer">
+                                                <span class="pull-left">Leer más</span>
+                                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Creatividad para todos -->
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="panel panel-primary">
+                                        <div class="panel-heading">
+                                            <div class="row">                                
+                                                <div class="col-xs-12 text-center">
+                                                    <div><h3>Creatividad para todos</h3></div>                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="card-img">
+                                                <img src="../img/card-pyme-1.jpg" alt="" class="img-responsive">
+                                            </div> 
+                                        </div>
+                                        <a href="#">
+                                            <div class="panel-footer">
+                                                <span class="pull-left">Leer más</span>
+                                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><!-- End Contenido Innovación -->
+                            <!-- Contenido SENA -->
+                            <div id="sena" class="tab-pane fade">
+                            </div><!-- End Contenido SENA -->
+                            <!-- Contenido CCC -->
+                            <div id="ccc" class="tab-pane fade">
+                            </div><!-- End Contenido CCC -->
+                        </div>
+
+
+                        
+                    </div><!-- End Noticias -->                    
+                </div><!-- End col-lg-9 -->
+
+                <div class="col-lg-3">
+                    <!-- Titulo Menú Capacitaciones -->
+                    <div class="row">
+                        <h3 class="page-header header-title">Temas<strong class="strong-title"> Capacitaciones</strong></h3>
+                    </div><!-- End Titulo Menú Capacitaciones -->
+                    <!-- Menú Vertical --> 
+                    <div class="row">
+                        <div class="panel panel-default">                            
+                            <div class="panel-body">
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li class="active"><a data-toggle="tab" href="#financiero">Financiero</a></li>
+                                    <li><a data-toggle="tab" href="#mercadeo">Mercadeo</a></li>
+                                    <li><a data-toggle="tab" href="#innovacion">Innovación</a></li>
+                                    <li><a href="#">SENA</a></li>
+                                    <li><a href="#">Cámara de Comercio</a></li>
+                                </ul>
+                            </div>
+                        </div> 
+                    </div><!--End Menú Vertical --> 
+                    <!-- Calendario -->  
+                    <div class="row">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <i class="fa fa-calendar fa-fw"></i> Calendario
+                            </div>
+                            <!-- /.panel-heading -->
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <h3>Enero - 2018</h3>
+                                    <table class="table table-striped table-bordered table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>L</th>
+                                                <th>M</th>
+                                                <th>M</th>
+                                                <th>J</th>
+                                                <th>V</th>
+                                                <th>S</th>
+                                                <th>D</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="danger">1</td>
+                                                <td>2</td>
+                                                <td>3</td>
+                                                <td>4</td>
+                                                <td>5</td>
+                                                <td>6</td>
+                                                <td class="danger">7</td>                                                
+                                            </tr>
+                                            <tr>
+                                               <td class="danger">8</td>
+                                                <td>9</td>
+                                                <td>10</td>
+                                                <td>11</td>
+                                                <td>12</td>
+                                                <td>13</td>
+                                                <td class="danger">14</td>
+                                            </tr>
+                                            <tr>
+                                                <td>15</td>
+                                                <td>16</td>
+                                                <td>17</td>
+                                                <td>18</td>
+                                                <td>19</td>
+                                                <td>20</td>
+                                                <td class="danger">21</td>
+                                            </tr>
+                                            <tr>
+                                                <td>22</td>
+                                                <td>23</td>
+                                                <td>24</td>
+                                                <td>25</td>
+                                                <td>26</td>
+                                                <td>27</td>
+                                                <td class="danger">28</td>
+                                            </tr>
+                                            <tr>
+                                                <td>29</td>
+                                                <td>30</td>
+                                                <td>31</td>
+                                                <td class="info">1</td>
+                                                <td class="info">2</td>
+                                                <td class="info">3</td>
+                                                <td class="info">4</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- /.table-responsive -->
+                            </div><!-- /.panel-body -->
+                        </div><!-- /.panel -->
+                    </div><!-- End Calendario -->                  
+                                        
+                </div>
+                <!-- End col-lg-3 -->
+            </div>
+            <!-- /.row -->                  
+        </div>
+        <!-- /#page-wrapper --><!--
+        <div class="footer">
+            <p>FOOTER</p>
+        </div>-->
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Footer section -->
+    <footer class="footer-section">
+        <h2>2017 All rights reserved. Designed by <a href="www.bancodeoccidente.com.co" target="_blank">Innovación BDO</a><a href="https://www.grupoaval.com/" title="Grupo Aval" target="_blank">
+            <img src="../img/grupoaval.png" alt="Grupo Aval" class="left">
+        </a></h2>
+        
+
+    </footer>
+    <!-- Footer section end -->
+
+
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="../vendor/raphael/raphael.min.js"></script>
+    <script src="../vendor/morrisjs/morris.min.js"></script>
+    <script src="../data/morris-data.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>

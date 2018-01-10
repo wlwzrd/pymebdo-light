@@ -23,13 +23,32 @@ body {
     border-left: 1px solid #e7e7e7;
   }
 }
+/*------------------------
+  Footer section
+--------------------------*/
+.footer-section {
+  background: #002449;
+  text-align: center;
+}
+
+.footer-section h2 {
+  color: #fff;
+  font-size: 14px;
+  padding: 18px 0;
+}
+/*------------------------*/
 .strong-title{
   color: #008acc;
 }
 .header-title{
   text-transform: uppercase;
   font-weight: 400;
+} 
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+  background-color: #002449;
 }
+
 .navbar-pyme{
   background: #002449;
 }
@@ -38,6 +57,10 @@ body {
   color: #fff;
 }
 .navbar-pyme li a:hover{
+  background: #005890;
+  color: #fff;
+}
+.navbar-pyme li a:focus{
   background: #005890;
   color: #fff;
 }
@@ -60,11 +83,24 @@ body {
   text-align: center;
 }
 
+.dropdown-pyme{
+  background: #002449;
+}
 
+.card-img {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  max-height: 260px;
+}
 
+.card-img img {
+  min-width: 100%;
+}
 
-
-
+.table th, td {
+   text-align: center;   
+}
 
 
 .navbar-top-links {
@@ -107,10 +143,12 @@ body {
 }
 .navbar-top-links .dropdown-alerts {
   margin-left: -123px;
+  background-color: #002449;
 }
 .navbar-top-links .dropdown-user {
   right: 0;
   left: auto;
+  background-color: #002449;
 }
 .sidebar .sidebar-nav.navbar-collapse {
   padding-left: 0;
@@ -280,7 +318,7 @@ table.dataTable thead .sorting:after {
   margin: 15px 0;
 }
 .huge {
-  font-size: 40px;
+  font-size: 32px;
 }
 .panel-green {
   border-color: #5cb85c;
