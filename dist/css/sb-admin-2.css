@@ -126,6 +126,27 @@ body {
    text-align: center;   
 }
 
+.updates{
+  padding: 0 15px;
+}
+
+.panel-updates {
+  border-color: #dededf;
+}
+.panel-updates > .panel-heading {
+  border-color: #dededf;
+  color: black;
+  background-color: #dededf;
+}
+.panel-updates > a {
+  color: #dededf;
+}
+.panel-updates > a:hover {
+  color: #3d8b3d;
+}
+.panel-body code{
+  color: gray;
+}
 
 .navbar-top-links {
   margin-right: 0;
