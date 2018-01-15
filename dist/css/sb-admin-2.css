@@ -148,6 +148,18 @@ body {
   color: gray;
 }
 
+.login-background{
+  background-image: url(../../img/fondo.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.alert-login{
+  background-color: #002449;
+  opacity: 0.8;
+  color: #fff;
+}
 .navbar-top-links {
   margin-right: 0;
 }

@@ -32,7 +32,7 @@
 
 </head>
 
-<body>
+<body class="login-background">
 
     <!-- Navigation -->
         <nav class="navbar navbar-default navbar-pyme navbar-static-top" role="navigation" style="margin-bottom: 0">
@@ -57,39 +57,63 @@
             <!-- /.navbar-top-links -->
             
         </nav>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-md-offset-4">
-                <div class="login-panel panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Hola, <br> Ingresa tu usuario y contraseña <strong class="strong-title">para acceder</strong></h3>
+        <div id="page-wrapper"  style="background-color:transparent">
+             <div class="container-fluid"> 
+                <h1 class="page-header header-title">Bienvenido<strong class="strong-title"> a Comunidad Pyme</strong></h1>          
+                <div class="row">
+                    <div class="col-md-8"> 
+                        <div class="alert alert-login"  role="alert">
+                            <div class="row">
+                                <div class="col-md-4"> 
+                                    <p style="font-size:18px">Red de negocios exclusiva para nuestros clientes del Banco de Occidente, que te permitirá generar alianzas y nuevos negocios.</p>
+                                </div>
+                                <div class="col-md-8">
+                                    <i class="fa fa-group"></i> Mas de 5.000 integrantes<br><br>
+                                    <i class="fa fa-sticky-note"></i> Crea y cierra nuevos negocios<br><br>
+                                    <i class="fa fa-percent"></i> Descuentos y Promociones<br><br>
+                                    <i class="fa fa-book"></i> Participa de nuestras capacitaciones
+                                </div>
+                            </div>
+                        </div>             
                     </div>
-                    <div class="panel-body">
-                        <form role="form">
-                            <fieldset>
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="Ingresa tu usuario" name="email" type="email" autofocus>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="Ingresa tu contraseña" name="password" type="password" value="">
-                                </div>
-                                <div class="checkbox">
-                                    <label>
-                                        <input name="remember" type="checkbox" value="Remember Me">He leído las Condiciones de Seguridad y Condiciones Generales
-                                    </label>
-                                </div>
-                                <!-- Change this to a button or input when using this as a form -->
-                                <a href="index.html" class="btn btn-lg btn-warning btn-block">INGRESA</a>
-                            </fieldset>
-                        </form>
+                    <div class="col-md-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Hola, <br> Ingresa tu usuario y contraseña <strong class="strong-title">para acceder</strong></h3>
+                            </div>
+                            <div class="panel-body">
+                                <form role="form">
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="Ingresa tu usuario" name="email" type="email" autofocus>
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="Ingresa tu contraseña" name="password" type="password" value="">
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input name="remember" type="checkbox" value="Remember Me">He leído las Condiciones de Seguridad y Condiciones Generales
+                                            </label>
+                                        </div>
+                                        <!-- Change this to a button or input when using this as a form -->
+                                        <a href="index.html" class="btn btn-lg btn-warning btn-block">INGRESA</a>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+     <!-- Footer section -->
+    <footer class="footer-section">
+        <h2>2017 All rights reserved. Designed by <a href="www.bancodeoccidente.com.co" target="_blank">Innovación BDO</a><a href="https://www.grupoaval.com/" title="Grupo Aval" target="_blank">
+            <img src="../img/grupoaval.png" alt="Grupo Aval" class="left">
+        </a></h2>
+    </footer>
+    <!-- Footer section end -->
 
-    
+
 
     <!-- jQuery -->
     <script src="../vendor/jquery/jquery.min.js"></script>
