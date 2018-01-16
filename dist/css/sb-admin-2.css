@@ -97,6 +97,11 @@ body {
 .navbar-pyme li.solicitud{
   background: #008acc;
 }
+
+.nav .open>a, .open>a:hover, .open>a:focus{
+  background-color:#005890;
+}
+
 .footer{
   position: relative;
   left: 0;
