@@ -55,20 +55,17 @@
             <ul class="nav navbar-top-links navbar-right">                    
                 <li><a href="../pages/contenidoeindicadores.html"><i class="fa fa-flag"></i> Contenido e Indicadores</a></li>
                 <li><a href="../pages/capacitaciones.html"><i class="fa fa-book"></i> Capacitaciones</a></li>
-                <li class="active"><a href="../pages/aliados.html"><i class="fa fa-group"></i> Aliados</a></li>
+                <li><a href="../pages/aliados.html"><i class="fa fa-group"></i> Aliados</a></li>
                 <!-- Contacto-->
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         <i class="fa fa-phone fa-fw"></i> Contacto <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user dropdown-pyme">
-                        <li><a href="#"></i> Linea de atención</a></li>
+                        <li><a href="" data-toggle="modal" data-target="#lineadeatencion"></i> Linea de atención</a></li>
                         <li><a href="http://videollamada.bancodeoccidente.com.co:9997/videollamada/" target="_blank"></i> Video Llamada</a></li>
-                        <li><a href="https://chat.bancodeoccidente.com.co/inicio.jsp" target="_blank"></i> Chat</a></li>
-                        <li><a href="#"></i> Correo Electrónico</a></li>
-                        <li><a href="#"></i> Tutoriales</a></li>
-                        <li><a href="#"></i> Formulario</a></li>
-                        </li>
+                        <li><a href="https://chat.bancodeoccidente.com.co/inicio.jsp" target="_blank"></i> Chat Asesor Empresas</a></li>
+                        <li><a href="mailto:ejecutivopyme@bancodeoccidente.com.co"></i> Correo Electrónico</a></li>  
                     </ul>
                     <!-- /.dropdown-user -->
                 </li>
@@ -125,7 +122,7 @@
                         </li>                                                
                         <li class="divider"></li>
                         <li>
-                            <a class="text-center" href="#">
+                            <a class="text-center" href="../pages/notificaciones.html">
                                 <strong>Ver Todas las Notificaciones</strong>
                                 <i class="fa fa-angle-right"></i>
                             </a>
@@ -135,12 +132,39 @@
                 </li>
                 <!-- /.dropdown -->
                 <!-- End Notificaciones-->                
-                <li class="solicitud"><a href="#">Solicita Productos</a></li>
-                <li class="transacciones"><a href="#"><i class="fa fa-lock"></i> Transacciones</a></li>                                  
+                <li class="solicitud">
+                    <a href="https://www.bancodeoccidente.com.co/solicitarcredito/#/solicitarVehiculo" target="_blank">Solicita Productos</a>
+                </li>
+                <li class="transacciones">
+                    <a href="https://occired1.bancodeoccidente.com.co/bancacorporativa/BancaCorporativaOccired.asphttps://occired1.bancodeoccidente.com.co/bancacorporativa/BancaCorporativaOccired.asp" target="_blank"><i class="fa fa-lock"></i> Transacciones</a>
+                </li>                                  
             </ul>
-            <!-- /.navbar-top-links -->
-            
+            <!-- /.navbar-top-links -->            
         </nav>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="lineadeatencion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Línea de Atención</h4>
+                    </div>
+                    <div class="modal-body text-center">
+                        <strong>Llámanos al</strong><br>
+                        <strong class="strong-title">01 800 05 14652</strong><br>
+                        Opcion 4 (Asesores)<br>
+                        1 (Empresas) <br> 
+                        1 (Ejecutivo PYME)
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                                                                
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div><!-- /.modal -->
 
         <div id="page-wrapper">
             <!-- Sección de Titulos Indicadores y Noticias-->
